@@ -23,8 +23,8 @@
             {
                 Console.Write("Введите вашу догадку: ");
                 string input = Console.ReadLine();
-                int guess;
-                if (!int.TryParse(input, out guess))
+                
+                if (!int.TryParse(input, out var guess))
                 {
                     Console.WriteLine("Неверный ввод. Пожалуйста, введите число.");
                     continue;
