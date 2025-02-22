@@ -1,4 +1,6 @@
-﻿namespace GuessNumber;
+﻿using GuessNumber.Abstractions;
+
+namespace GuessNumber.Implementations;
 
   public class GuessNumberGame : IGame
     {

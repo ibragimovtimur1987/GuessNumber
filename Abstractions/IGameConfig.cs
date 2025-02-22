@@ -1,4 +1,4 @@
-﻿namespace GuessNumber;
+﻿namespace GuessNumber.Abstractions;
 
 public interface IGameConfig
 {
